@@ -7,7 +7,7 @@
 }
 /* nav-bar */
 header {
-    background-color: #011752;
+    background-color: #002f5c;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -33,9 +33,10 @@ header {
     
 }
 
-#redes{
+#icons{
     margin-left: 8px;
-    font-size: 0.7rem
+    font-size: 0.7rem;
+    color: #f3d500;
 }
 
 a.nav-link{
@@ -58,7 +59,7 @@ a.nav-link{
 }
 
 .logo h1{
-    color: #011752;
+    color: #002f5c;
     font-weight: bold;
 }
 
@@ -88,6 +89,7 @@ i{
     font-size: 1.15rem;
     font-weight: 400;
     font-weight: bold;
+    color: #002f5c;
 }
 
 .login-button button{
