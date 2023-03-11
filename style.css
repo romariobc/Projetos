@@ -250,7 +250,15 @@ h5{
 .item>p{
     height: 140px;
 }
-
+#btnvm{
+    background-color: #00305cec;
+    color: #f3d500;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
 #img{
     background-image: url(imagens/oii.jpg);
     background-position: center center;
