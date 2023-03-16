@@ -213,12 +213,22 @@ i{
     display: inline;
     font-size: 2em;
 }
-h5{
+#bloco1>p{
+    margin-top: 30px;
+}
+.item>h3{
+    font-size: 1.2em;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+h3>a{
+    text-decoration: none;
     color: #002f5c;
 }
 .amarela{
-    display: inline;
-}
+    position: relative;
+    top: 30px;
+    }
 #pt2{
     display: flex;
     flex-direction: row;
@@ -236,30 +246,14 @@ h5{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-    
 }
 .item{
     max-width: 280px;
-    height: 280px;
-    
-}
-#bloco1>p{
-    margin-bottom: 15px;
+    height: 200px;
+
 }
 .item>p{
     height: 140px;
-}
-#btnvm{
-    background-color: #00305cec;
-    color: #fff;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 1em;
-    cursor: pointer;
-    border: none;
 }
 #img{
     background-image: url(imagens/oii.jpg);
@@ -267,6 +261,12 @@ h5{
     background-attachment: local;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 600px;
-    height: 720px;
+    width: 650px;
+    height: 600px;
+}
+#imgp{
+    position: relative;
+    left: 270px;
+    top: -50px;
+    border: 20px solid #fff;
 }
